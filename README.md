@@ -1,13 +1,21 @@
 <div align="center">
       <h1> 
-            <img src="https://github.com/user-attachments/assets/3e972703-9a8c-45ef-9f64-5789e28db311" width="150px">
+            <img src="https://github.com/user-attachments/assets/3e972703-9a8c-45ef-9f64-5789e28db311" width="165px">
             <br/>
             HelloWorld
             <br/> 
       </h1>
 </div>
 
-Dile, ülke, yaşa ve daha fazla kritere göre mükemmel dil partnerini bul. Çeviri, düzeltmeler ve anında altyazı gibi yerleşik öğrenme araçlarıyla HelloWorld engeller olmadan iletişim kurmana olanak tanır!
+   <br/> 
+
+## 📌 **Proje Hakkında** 
+**HelloWorld**, Dile, ülke, yaşa ve daha fazla kritere göre mükemmel dil partnerini bul. Çeviri, düzeltmeler ve anında altyazı gibi yerleşik öğrenme araçlarıyla HelloWorld engeller olmadan iletişim kurmana olanak tanır.
+
+<br/> 
+
+![Feature graphic](https://github.com/user-attachments/assets/326b56e7-02e9-4ac2-8e72-6959e3f83e7a)
+   <br/> 
 
 ## Kullanılan Teknolojiler 🛠️
 - 📊  Veri Analizi : Kaggle, Excel, Microsoft SQL Server, JSON ile veri ön işleme ve temizleme.
