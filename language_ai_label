@@ -1,0 +1,38 @@
+// Language_label
+CREATE
+(   
+    :language {
+        id:0 , 
+        language: "Turkish"}
+)
+,
+(
+    :language {
+        id:1 , 
+        language: "Arabic" }
+)
+,
+(
+    :language{
+        id:2 , 
+        language: "English"}
+)
+,
+(
+    :language{
+        id:3 , 
+        language: "French"}
+),
+(
+    :language{
+        id:3 , 
+        language: "Spanish"}
+);
+
+// Ai_label
+CREATE
+(   
+    :ai {
+        id:0 , 
+        ai: "AI"}
+);

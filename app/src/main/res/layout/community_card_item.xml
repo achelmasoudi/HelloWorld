@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:background="@color/secondaryColor"
+    app:cardCornerRadius="10dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/communityCardItem_btnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        style="@style/SelectableItemBackground"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#00000000"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="55dp"
+                android:id="@+id/communityCardItem_profilePicId"
+                android:layout_centerInParent="true"
+                android:layout_height="55dp"/>
+
+            <LinearLayout
+                android:layout_marginLeft="15dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/communityCardItem_fullnameId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="@font/kollektif"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:text="Achraf El masoudi"
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/communityCardItem_ageId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="@font/kollektif"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:text="23"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/primaryColor"
+                        android:textSize="17sp" />
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/communityCardItem_nativeLanId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="@font/kollektif"
+                        android:text="🇹🇷   Turkish"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/communityCardItem_iconfromtoId"
+                        android:layout_width="11dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_gravity="center"
+                        android:layout_height="11dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/forward_icon" />
+
+                    <TextView
+                        android:id="@+id/communityCardItem_learningLanId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="@font/kollektif"
+                        android:text="🇬🇧   English"
+                        android:textColor="@color/gray"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                
+            </LinearLayout>
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/communityCardItem_lastMsgTimeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/kollektif"
+                android:text="00:00"
+                android:gravity="center"
+                android:layout_gravity="top"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/gray"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

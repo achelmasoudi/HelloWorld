@@ -1,0 +1,480 @@
+CREATE(
+    :user{
+        id:1 , 
+        name:"Isabella Martinez", 
+        gender:"Female" , 
+        age: 26 ,
+        nationality:"Australia" ,
+        nativeLanguage: "English",
+        learningLanguage: "Turkish",
+        premium: TRUE}
+)
+,
+(
+    :user{
+        id:2 , 
+        name:"William Wilson", 
+        gender:"Male" , 
+        age: 28 ,
+        nationality:"Canada" ,
+        nativeLanguage: "English",
+        learningLanguage: "Turkish",
+        premium: FALSE })
+,
+(
+    :user{
+        id:3 , 
+        name:"Sophia Thomas", 
+        gender:"Female" , 
+        age: 27 ,
+        nationality:"USA" ,
+        nativeLanguage: "English",
+        learningLanguage: "Arabic",
+        premium: TRUE }
+ )
+,
+ (
+    :user{
+        id:4 , 
+        name:"James Andersonn", 
+        gender:"Male" , 
+        age: 23 ,
+        nationality:"UK" ,
+        nativeLanguage: "English",
+        learningLanguage: "Arabic",
+        premium: TRUE }
+ )
+,
+ (
+    :user{
+        id:5 , 
+        name:"Lily Moore", 
+        gender:"Female" , 
+        age: 24 ,
+        nationality:"Canada" ,
+        nativeLanguage: "English",
+        learningLanguage: "French",
+        premium: FALSE }
+ )
+,
+ (
+    :user{
+        id:6 , 
+        name:"Madison Bell", 
+        gender:"Male" , 
+        age: 19 ,
+        nationality:"USA" ,
+        nativeLanguage: "English",
+        learningLanguage: "French",
+        premium: FALSE}
+ )
+ ,
+ (
+    :user{
+        id:7 , 
+        name:"Ethan Cook", 
+        gender:"Female" , 
+        age: 21 ,
+        nationality:"USA" ,
+        nativeLanguage: "English",
+        learningLanguage: "Spanish",
+        premium: FALSE }
+ )
+,
+ (
+    :user{
+        id:8 , 
+        name:"Zoe Hughes", 
+        gender:"Male" , 
+        age: 24 ,
+        nationality:"UK" ,
+        nativeLanguage: "English",
+        learningLanguage: "Spanish",
+        premium: TRUE }
+ )
+ ,
+  (
+   :user{
+        id:9 , 
+        name:"Yasemin Yılmaz", 
+        gender:"Female" , 
+        age: 27 ,
+        nationality:"Turkey" ,
+        nativeLanguage: "Turkish",
+        learningLanguage: "English",
+        premium: TRUE }
+ )
+ ,
+  (
+    :user{
+        id:10 , 
+        name:"Efe Çelik", 
+        gender:"Male" , 
+        age: 20 ,
+        nationality:"Turkey" ,
+        nativeLanguage: "Turkish",
+        learningLanguage: "English",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:11 , 
+        name:"Nazlı Kara", 
+        gender:"Female" , 
+        age: 24 ,
+        nationality:"Turkey" ,
+        nativeLanguage: "Turkish",
+        learningLanguage: "Arabic",
+        premium: TRUE }
+ )
+ ,
+  (
+    :user{
+        id:12 , 
+        name:"Mustafa Yıldız", 
+        gender:"Male" , 
+        age: 29 ,
+        nationality:"Turkey" ,
+        nativeLanguage: "Turkish",
+        learningLanguage: "Arabic",
+        premium: FALSE }
+ )
+,
+ (
+    :user{
+        id:13 , 
+        name:"Sude Arslan", 
+        gender:"Female" , 
+        age: 21 ,
+        nationality:"Turkey" ,
+        nativeLanguage: "Turkish",
+        learningLanguage: "French",
+        premium: TRUE }
+ )
+,
+ (
+    :user{
+        id:14 , 
+        name:"Emirhan Yönaç", 
+        gender:"Male" , 
+        age: 22 ,
+        nationality:"Turkey" ,
+        nativeLanguage: "Turkish",
+        learningLanguage: "French",
+        premium: FALSE }
+ )
+,
+ (
+    :user{
+        id:15 , 
+        name:"Aslı Yıldız", 
+        gender:"Female" , 
+        age: 25 ,
+        nationality:"Turkey" ,
+        nativeLanguage: "Turkish",
+        learningLanguage: "Spanish",
+        premium: FALSE }
+ )
+,
+ (
+    :user{
+        id:16 , 
+        name:"Efe Çelik", 
+        gender:"Male" , 
+        age: 20 ,
+        nationality:"Turkey" ,
+        nativeLanguage: "Turkish",
+        learningLanguage: "Spanish",
+        premium: TRUE }
+ )
+,
+(
+    :user{
+        id:17 , 
+        name:"Maya Omar", 
+        gender:"Female" , 
+        age: 23 ,
+        nationality:"Morocco" ,
+        nativeLanguage: "Arabic",
+        learningLanguage: "English",
+        premium: FALSE }
+ )
+,
+ (
+    :user{
+        id:18 , 
+        name:"Safia Ibrahim", 
+        gender:"Female" , 
+        age: 27 ,
+        nationality:"Jordan" ,
+        nativeLanguage: "Arabic",
+        learningLanguage: "English",
+        premium: TRUE }
+ )
+ ,
+  (
+    :user{
+        id:19 , 
+        name:"Achraf El masoudi", 
+        gender:"Male" , 
+        age: 23 ,
+        nationality:"Morocco" ,
+        nativeLanguage: "Arabic",
+        learningLanguage: "Turkish",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:20 , 
+        name:"Amir Youssef", 
+        gender:"Male" , 
+        age: 20 ,
+        nationality:"Egypt" ,
+        nativeLanguage: "Arabic",
+        learningLanguage: "Turkish",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:21 , 
+        name:"Tariq Hamdi", 
+        gender:"Male" , 
+        age: 20 ,
+        nationality:"Morocco" ,
+        nativeLanguage: "Arabic",
+        learningLanguage: "French",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:22 , 
+        name:"Leila Hassan", 
+        gender:"Female" , 
+        age: 21 ,
+        nationality:"Saudi Arabia" ,
+        nativeLanguage: "Arabic",
+        learningLanguage: "French",
+        premium: TRUE }
+ )
+,
+  (
+    :user{
+        id:23 , 
+        name:"Jamal Abdulaziz", 
+        gender:"Male" , 
+        age: 21 ,
+        nationality:"UAE" ,
+        nativeLanguage: "Arabic",
+        learningLanguage: "Spanish",
+        premium: TRUE }
+ )
+ ,
+  (
+    :user{
+        id:24 , 
+        name:"Amira Youssef", 
+        gender:"Female" , 
+        age: 31 ,
+        nationality:"UAE" ,
+        nativeLanguage: "Arabic",
+        learningLanguage: "Spanish",
+        premium: FALSE }
+ )
+,
+  (
+    :user{
+        id:25 , 
+        name:"Margot Petit", 
+        gender:"Female" , 
+        age: 21 ,
+        nationality:"France" ,
+        nativeLanguage: "French",
+        learningLanguage: "English",
+        premium: TRUE }
+ )
+ ,
+  (
+    :user{
+        id:26 , 
+        name:"Thomas Dubois", 
+        gender:"Male" , 
+        age: 23 ,
+        nationality:"France" ,
+        nativeLanguage: "French",
+        learningLanguage: "English",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:27 , 
+        name:"Sofia Moreau", 
+        gender:"Female" , 
+        age: 19 ,
+        nationality:"France" ,
+        nativeLanguage: "French",
+        learningLanguage: "Turkish",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:28 , 
+        name:"Charlotte Leroy", 
+        gender:"Female" , 
+        age: 25 ,
+        nationality:"France" ,
+        nativeLanguage: "French",
+        learningLanguage: "Turkish",
+        premium: TRUE }
+ )
+ ,
+  (
+    :user{
+        id:29 , 
+        name:"Emma Blanc", 
+        gender:"Female" , 
+        age: 20 ,
+        nationality:"France" ,
+        nativeLanguage: "French",
+        learningLanguage: "Arabic",
+        premium: TRUE }
+ )
+ ,
+  (
+    :user{
+        id:30 , 
+        name:"Ana Chevalier", 
+        gender:"Female" , 
+        age: 29 ,
+        nationality:"France" ,
+        nativeLanguage: "French",
+        learningLanguage: "Arabic",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:31 , 
+        name:"Célin eLemoine", 
+        gender:"Female" , 
+        age: 19 ,
+        nationality:"France" ,
+        nativeLanguage: "French",
+        learningLanguage: "Spanish",
+        premium: TRUE }
+ )
+ ,
+  (
+    :user{
+        id:32 , 
+        name:"Sarah Girard", 
+        gender:"Female" , 
+        age: 22 ,
+        nationality:"France" ,
+        nativeLanguage: "French",
+        learningLanguage: "Spanish",
+        premium: TRUE }
+ )
+,
+  (
+    :user{
+        id:33 , 
+        name:"Alejandro Alvarez", 
+        gender:"Male" , 
+        age: 18 ,
+        nationality:"Spain" ,
+        nativeLanguage: "Spanish",
+        learningLanguage: "English",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:34 , 
+        name:"Rafael Diaz", 
+        gender:"Male" , 
+        age: 22 ,
+        nationality:"Spain" ,
+        nativeLanguage: "Spanish",
+        learningLanguage: "English",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:35 , 
+        name:"Pedro Gomez", 
+        gender:"Male" , 
+        age: 24 ,
+        nationality:"Spain" ,
+        nativeLanguage: "Spanish",
+        learningLanguage: "Turkish",
+        premium: TRUE }
+ )
+ ,
+  (
+    :user{
+        id:36 , 
+        name:"Diego Fernandez", 
+        gender:"Male" , 
+        age: 31 ,
+        nationality:"Spain" ,
+        nativeLanguage: "Spanish",
+        learningLanguage: "Turkish",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:37 , 
+        name:"Ana Rodríguez", 
+        gender:"Female" , 
+        age: 20 ,
+        nationality:"Spain" ,
+        nativeLanguage: "Spanish",
+        learningLanguage: "Arabic",
+        premium: TRUE }
+ )
+ ,
+  (
+    :user{
+        id:38 , 
+        name:"Rosa Pérez", 
+        gender:"Female" , 
+        age: 26 ,
+        nationality:"Spain" ,
+        nativeLanguage: "Spanish",
+        learningLanguage: "Arabic",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:39 , 
+        name:"María García", 
+        gender:"Female" , 
+        age: 24 ,
+        nationality:"Spain" ,
+        nativeLanguage: "Spanish",
+        learningLanguage: " French ",
+        premium: FALSE }
+ )
+ ,
+  (
+    :user{
+        id:40 , 
+        name:"Alejandro Martínez", 
+        gender:"Male" , 
+        age: 33 ,
+        nationality:"Spain" ,
+        nativeLanguage: "Spanish",
+        learningLanguage: "French",
+        premium: TRUE }
+ )
+;
+

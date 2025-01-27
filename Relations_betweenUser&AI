@@ -1,0 +1,2 @@
+MATCH(u:user),(a:ai) WHERE u.premium= true  
+CREATE (u) - [relation:Pratik_Yapar] -> (a) RETURN u,a;

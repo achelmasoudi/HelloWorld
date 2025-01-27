@@ -1,0 +1,53 @@
+// For English with Other Languages
+MATCH (u1:user), (u2:user)
+WHERE u1.nativeLanguage = "English" AND u1.learningLanguage = "Arabic"
+  AND u2.nativeLanguage = "Arabic" AND u2.learningLanguage = "English"
+CREATE (u1) - [:Konuşur] -> (u2) RETURN u1,u2;
+
+MATCH (u1:user), (u2:user)
+WHERE u1.nativeLanguage = "English" AND u1.learningLanguage = "Turkish"
+  AND u2.nativeLanguage = "Turkish" AND u2.learningLanguage = "English"
+CREATE (u1) - [:Konuşur] -> (u2) RETURN u1,u2;
+
+MATCH (u1:user), (u2:user)
+WHERE u1.nativeLanguage = "English" AND u1.learningLanguage = "French"
+  AND u2.nativeLanguage = "French" AND u2.learningLanguage = "English"
+CREATE (u1) - [:Konuşur] -> (u2) RETURN u1,u2;
+
+MATCH (u1:user), (u2:user)
+WHERE u1.nativeLanguage = "English" AND u1.learningLanguage = "Spanish"
+  AND u2.nativeLanguage = "Spanish" AND u2.learningLanguage = "English"
+CREATE (u1) - [:Konuşur] -> (u2) RETURN u1,u2;
+
+// For Turkish with Other Languages
+MATCH (u1:user), (u2:user)
+WHERE u1.nativeLanguage = "Turkish" AND u1.learningLanguage = "Arabic"
+  AND u2.nativeLanguage = "Arabic" AND u2.learningLanguage = "Turkish"
+CREATE (u1) - [:Konuşur] -> (u2) RETURN u1,u2;
+
+MATCH (u1:user), (u2:user)
+WHERE u1.nativeLanguage = "Turkish" AND u1.learningLanguage = "French"
+  AND u2.nativeLanguage = "French" AND u2.learningLanguage = "Turkish"
+CREATE (u1) - [:Konuşur] -> (u2) RETURN u1,u2;
+
+MATCH (u1:user), (u2:user)
+WHERE u1.nativeLanguage = "Turkish" AND u1.learningLanguage = "Spanish"
+  AND u2.nativeLanguage = "Spanish" AND u2.learningLanguage = "Turkish"
+CREATE (u1) - [:Konuşur] -> (u2) RETURN u1,u2;
+
+// For Arabic with Other Languages
+MATCH (u1:user), (u2:user)
+WHERE u1.nativeLanguage = "Arabic" AND u1.learningLanguage = "French"
+  AND u2.nativeLanguage = "French" AND u2.learningLanguage = "Arabic"
+CREATE (u1) - [:Konuşur] -> (u2) RETURN u1,u2;
+
+MATCH (u1:user), (u2:user)
+WHERE u1.nativeLanguage = "Arabic" AND u1.learningLanguage = "Spanish"
+  AND u2.nativeLanguage = "Spanish" AND u2.learningLanguage = "Arabic"
+CREATE (u1) - [:Konuşur] -> (u2) RETURN u1,u2;
+
+// For French with Other Languages
+MATCH (u1:user), (u2:user)
+WHERE u1.nativeLanguage = "French" AND u1.learningLanguage = "Spanish"
+  AND u2.nativeLanguage = "Spanish" AND u2.learningLanguage = "French"
+CREATE (u1) - [:Konuşur] -> (u2) RETURN u1,u2;

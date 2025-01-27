@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "296954971591",
+    "firebase_url": "https://msg---movies-series-gala-4213b-default-rtdb.firebaseio.com",
+    "project_id": "msg---movies-series-gala-4213b",
+    "storage_bucket": "msg---movies-series-gala-4213b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296954971591:android:bfd91db661bdaad05a85e2",
+        "android_client_info": {
+          "package_name": "com.achelm.helloworld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSPRh3zoOX395DNM3ljEbtk5UpvBA1A_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

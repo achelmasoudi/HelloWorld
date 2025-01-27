@@ -1,0 +1,14 @@
+MATCH(u:user),(l:language) WHERE u.learningLanguage="English" AND l.language="English" CREATE     
+    (u) - [relation:Öğrenir] -> (l) RETURN u,l;
+
+MATCH(u:user),(l:language) WHERE u.learningLanguage="Arabic" AND l.language="Arabic" CREATE     
+    (u) - [relation:Öğrenir] -> (l) RETURN u,l;
+
+MATCH(u:user),(l:language) WHERE u.learningLanguage="Turkish" AND l.language="Turkish" CREATE     
+    (u) - [relation:Öğrenir] -> (l) RETURN u,l;
+
+MATCH(u:user),(l:language) WHERE u.learningLanguage="French" AND l.language="French" CREATE     
+    (u) - [relation:Öğrenir] -> (l) RETURN u,l;
+
+MATCH(u:user),(l:language) WHERE u.learningLanguage="Spanish" AND l.language="Spanish" CREATE     
+    (u) - [relation:Öğrenir] -> (l) RETURN u,l;

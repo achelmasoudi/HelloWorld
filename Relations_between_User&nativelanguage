@@ -1,0 +1,15 @@
+MATCH(u:user),(l:language) WHERE u.nativeLanguage="English" AND l.language="English" CREATE     
+    (u) - [relation:Anadili] -> (l) RETURN u,l;
+
+MATCH(u:user),(l:language) WHERE u.nativeLanguage="Arabic" AND l.language="Arabic" CREATE     
+    (u) - [relation:Anadili] -> (l) RETURN u,l;
+
+MATCH(u:user),(l:language) WHERE u.nativeLanguage="Turkish" AND l.language="Turkish" CREATE     
+    (u) - [relation:Anadili] -> (l) RETURN u,l;
+
+MATCH(u:user),(l:language) WHERE u.nativeLanguage="French" AND l.language="French" CREATE     
+    (u) - [relation:Anadili] -> (l) RETURN u,l;
+
+MATCH(u:user),(l:language) WHERE u.nativeLanguage="Spanish" AND l.language="Spanish" CREATE     
+    (u) - [relation:Anadili] -> (l) RETURN u,l;
+
