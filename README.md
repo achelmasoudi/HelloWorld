@@ -1,13 +1,5 @@
 <div align="center">
       <h1> 
-<<<<<<< HEAD
-            MSG - Movies Series Galaxy
-            <br/> 
-            <br/> 
-            <img src="https://github.com/achelmasoudi/MSG/assets/154275618/94d265ea-af46-4f78-aec9-98a35d743bd1" width="350px" />
-      </h1>
-</div>
-=======
             <img src="https://github.com/achelmasoudi/HelloWorld/assets/154275618/71aa6be0-0f5a-4afc-a845-40e88d9a93ab" width="150px">
             <br/>
             HelloWorld
@@ -30,4 +22,3 @@ Dile, ülke, yaşa ve daha fazla kritere göre mükemmel dil partnerini bul. Çe
 Bu uygulama, [***MVC (Model View Controller)***](https://developer.android.com/topic/architecture) mimarisini kullanmaktadır.
 
 ![](https://github.com/achelmasoudi/MSG_MoviesSeriesGalaxy/assets/154275618/3fa5f0bc-4bff-4674-8027-ef4ef9b97fe0)
->>>>>>> 11a6a6b17629f382e6115092f0ca4799ef6c95fd
